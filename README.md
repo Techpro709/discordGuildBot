@@ -1,10 +1,10 @@
 # Discord Guild Bot
 
 ## Features
-- TBD
+- TBD...
 
 ## Installation
-- TBD
+- TBD...
 
 ## Authors
 - [@Evicly](https://github.com/Evicly)
