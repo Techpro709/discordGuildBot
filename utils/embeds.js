@@ -7,8 +7,8 @@ const EMBED_COLORS = {
   WARN: '#f1c40f',
 };
 
-const BOT_LOGO_URL = 'https://cdn.glitch.global/06f76352-f966-453d-854d-61c4a0dde58a/Osmium.png?v=1731127732782';
-const BOT_NAME = 'Osmium';
+const BOT_LOGO_URL = 'https://cdn.glitch.global/06f76352-f966-453d-854d-61c4a0dde58a/Atherium.jpg?v=1731189527482';
+const BOT_NAME = 'Atherium';
 
 function createEmbed({ title, description, color = 'DEFAULT', footerText = '' }) {
   return new EmbedBuilder()

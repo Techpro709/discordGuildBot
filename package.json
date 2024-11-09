@@ -1,19 +1,19 @@
 {
-    "name": "osmium",
+    "name": "atherium",
     "version": "1.0.0",
-    "description": "Osmium is a multi-purpose Discord bot with many features",
+    "description": "Atherium is a multi-purpose Discord bot with many features",
     "main": "server.js",
     "scripts": {
-      "start": "node server.js"
+        "start": "node server.js"
     },
     "dependencies": {
-      "discord.js": "^14.16.3",
-      "dotenv": "^16.4.5",
-      "mongoose": "^8.7.0"
+        "atherium": "file:",
+        "discord.js": "^14.16.3",
+        "dotenv": "^16.4.5",
+        "mongoose": "^8.7.0"
     },
     "engines": {
-      "node": "20.x"
+        "node": "20.x"
     },
     "license": "UNLICENSED"
-  }
-  
+}
