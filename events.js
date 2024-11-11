@@ -16,7 +16,9 @@ module.exports = (client) => {
 
   client.on("guildMemberRemove", async (member) => {});
 
-  client.on("messageCreate", async (message) => {
+  client.on("messageCreate", async (member) => {});
+
+  client.on("interactionCreate", async (message) => {
     try {
       if (!message.author.bot) {
         let user = await User.findOne({ user_id: message.author.id });
